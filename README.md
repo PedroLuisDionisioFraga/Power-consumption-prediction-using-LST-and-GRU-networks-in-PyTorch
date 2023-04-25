@@ -20,7 +20,7 @@ As GRUs, propostas pela primeira vez em 2014, são versões simplificadas das LS
 
 Em uma rede GRU, cada unidade de memória é composta de duas portas (reset e update) que controlam o quanto de informações antigas e novas serão consideradas na atualização da memória. Assim como a rede LSTM, a rede GRU também é capaz de lidar com informações de longo prazo em sequências.
 
-OBS: Segue o link da fonte sobre [LSTM](https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-long-short-term-memory/) e [GRU](https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-gated-recurrent-unit-gru/#:~:text=LSTM%20e%20GRU%20foram%20criadas,para%20manter%20ou%20jogar%20fora.)
+OBS**: Segue o link da fonte sobre [LSTM](https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-long-short-term-memory/) e [GRU](https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-gated-recurrent-unit-gru/#:~:text=LSTM%20e%20GRU%20foram%20criadas,para%20manter%20ou%20jogar%20fora.)
 
 ## Iniciando o uso
 
@@ -35,16 +35,16 @@ O Todo o comando  instalará todos os pacotes listados no arquivo "requirements.
 
 ### Explicando as bibliotecas de uso
 
- * Matplotlib: É uma biblioteca de visualização de dados para Python que permite criar gráficos, histogramas, dispersões, gráficos de barras e muito mais. Ela é amplamente usada em ciência de dados e análise exploratória de dados. A versão "~=3.5.2" indica que deve ser instalada a versão 3.5.2 ou uma versão mais recente, mas não uma versão anterior.
- * Torch: É uma biblioteca de aprendizado de máquina de código aberto desenvolvida principalmente pela equipe do Facebook. Ela fornece uma ampla gama de algoritmos de aprendizado de máquina e redes neurais profundas para a construção de modelos de aprendizado de máquina. A versão "~=1.8.1" indica que deve ser instalada a versão 1.8.1 ou uma versão mais recente, mas não uma versão anterior.
- * Torchvision: É uma biblioteca complementar ao Torch para visão computacional. Ela fornece uma variedade de ferramentas e conjuntos de dados para ajudar a treinar e avaliar modelos de visão computacional. A versão "~=0.9.1" indica que deve ser instalada a versão 0.9.1 ou uma versão mais recente, mas não uma versão anterior.
- * Numpy: É uma biblioteca fundamental para computação numérica em Python. Ela fornece uma ampla variedade de funções e operações para trabalhar com matrizes e outros objetos matemáticos. A versão "1.23.3" indica que deve ser instalada exatamente essa versão.
- * Tqdm: É uma biblioteca para criar barras de progresso em loops e outras estruturas iterativas em Python. Ela fornece uma maneira fácil de acompanhar o progresso de um processo em tempo real. A versão "~=4.64.0" indica que deve ser instalada a versão 4.64.0 ou uma versão mais recente, mas não uma versão anterior.
- * Jupyter: É uma plataforma web para a criação e compartilhamento de documentos que contêm código executável, visualizações de dados e texto explicativo. Ela é muito utilizada em ciência de dados e análise de dados. A versão "1.0.0" indica que deve ser instalada exatamente essa versão.
- * Pandas: É uma biblioteca para manipulação e análise de dados em Python. Ela fornece ferramentas para ler, escrever e trabalhar com dados tabulares, como arquivos CSV e Excel. A versão "1.3.5" indica que deve ser instalada exatamente essa versão.
- * Scikit-learn: É uma biblioteca para aprendizado de máquina em Python que fornece uma ampla gama de algoritmos de aprendizado de máquina supervisionados e não supervisionados. Ela é amplamente utilizada em tarefas de classificação, regressão e agrupamento. A versão "1.0.2" indica que deve ser instalada exatamente essa versão.
+ * **Matplotlib**: É uma biblioteca de visualização de dados para Python que permite criar gráficos, histogramas, dispersões, gráficos de barras e muito mais. Ela é amplamente usada em ciência de dados e análise exploratória de dados. A versão "~=3.5.2" indica que deve ser instalada a versão 3.5.2 ou uma versão mais recente, mas não uma versão anterior.
+ * **Torch**: É uma biblioteca de aprendizado de máquina de código aberto desenvolvida principalmente pela equipe do Facebook. Ela fornece uma ampla gama de algoritmos de aprendizado de máquina e redes neurais profundas para a construção de modelos de aprendizado de máquina. A versão "~=1.8.1" indica que deve ser instalada a versão 1.8.1 ou uma versão mais recente, mas não uma versão anterior.
+ * **Torchvision**: É uma biblioteca complementar ao Torch para visão computacional. Ela fornece uma variedade de ferramentas e conjuntos de dados para ajudar a treinar e avaliar modelos de visão computacional. A versão "~=0.9.1" indica que deve ser instalada a versão 0.9.1 ou uma versão mais recente, mas não uma versão anterior.
+ * **Numpy**: É uma biblioteca fundamental para computação numérica em Python. Ela fornece uma ampla variedade de funções e operações para trabalhar com matrizes e outros objetos matemáticos. A versão "1.23.3" indica que deve ser instalada exatamente essa versão.
+ * **Tqdm**: É uma biblioteca para criar barras de progresso em loops e outras estruturas iterativas em Python. Ela fornece uma maneira fácil de acompanhar o progresso de um processo em tempo real. A versão "~=4.64.0" indica que deve ser instalada a versão 4.64.0 ou uma versão mais recente, mas não uma versão anterior.
+ * **Jupyter**: É uma plataforma web para a criação e compartilhamento de documentos que contêm código executável, visualizações de dados e texto explicativo. Ela é muito utilizada em ciência de dados e análise de dados. A versão "1.0.0" indica que deve ser instalada exatamente essa versão.
+ * **Pandas**: É uma biblioteca para manipulação e análise de dados em Python. Ela fornece ferramentas para ler, escrever e trabalhar com dados tabulares, como arquivos CSV e Excel. A versão "1.3.5" indica que deve ser instalada exatamente essa versão.
+ * **Scikit-learn**: É uma biblioteca para aprendizado de máquina em Python que fornece uma ampla gama de algoritmos de aprendizado de máquina supervisionados e não supervisionados. Ela é amplamente utilizada em tarefas de classificação, regressão e agrupamento. A versão "1.0.2" indica que deve ser instalada exatamente essa versão.
 
 ## Objetivos
 
- * O objetivo dessa implementação é criar um modelo que possa prever com precisão o uso de energia na próxima hora com dados históricos de uso.
- * No final compararemos o desempenho do modelo GRU com um modelo LSTM.
+ * **O objetivo dessa implementação é criar um modelo que possa prever com precisão o uso de energia na próxima hora com dados históricos de uso.
+ * **No final compararemos o desempenho do modelo GRU com um modelo LSTM.
