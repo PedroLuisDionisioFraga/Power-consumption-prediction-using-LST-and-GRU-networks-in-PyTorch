@@ -1,4 +1,4 @@
-**.pt
+**/*.pt
 **.csv
 **.txt
 * text=auto
