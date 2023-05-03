@@ -46,5 +46,5 @@ O Todo o comando  instalará todos os pacotes listados no arquivo "requirements.
 
 ## Objetivos
 
- * **O objetivo dessa implementação é criar um modelo que possa prever com precisão o uso de energia na próxima hora com dados históricos de uso.
- * **No final compararemos o desempenho do modelo GRU com um modelo LSTM.
+ * O objetivo dessa implementação é criar um modelo que possa prever com precisão o uso de energia na próxima hora com dados históricos de uso.
+ * No final compararemos o desempenho do modelo GRU com um modelo LSTM.
