@@ -20,7 +20,7 @@ As GRUs, propostas pela primeira vez em 2014, são versões simplificadas das LS
 
 Em uma rede GRU, cada unidade de memória é composta de duas portas (reset e update) que controlam o quanto de informações antigas e novas serão consideradas na atualização da memória. Assim como a rede LSTM, a rede GRU também é capaz de lidar com informações de longo prazo em sequências.
 
-OBS**: Segue o link da fonte sobre [LSTM](https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-long-short-term-memory/) e [GRU](https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-gated-recurrent-unit-gru/#:~:text=LSTM%20e%20GRU%20foram%20criadas,para%20manter%20ou%20jogar%20fora.)
+Obs: Segue o link da fonte sobre [LSTM](https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-long-short-term-memory/) e [GRU](https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-gated-recurrent-unit-gru/#:~:text=LSTM%20e%20GRU%20foram%20criadas,para%20manter%20ou%20jogar%20fora.)
 
 ## Iniciando o uso
 
